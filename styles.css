@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.post-principal {
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-encabezado {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.post-logo {
+    font-size: 24px;
+    color: #ff5722;
+    margin-right: 10px;
+}
+
+.post-info {
+    flex-grow: 1;
+}
+
+.post-usuario {
+    font-weight: bold;
+    display: block;
+}
+
+.post-nombre {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.post-header i:last-child {
+    font-size: 18px;
+    color: #555;
+}
+
+.post-imagen img {
+    width: 100%;
+    display: block;
+}
+
+.post-iconos {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.post-iconos i {
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #333;
+}
+
+.bookmark {
+    margin-left: auto;
+}
+
+.post-likes, .post-descripcion {
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+.post-likes p, .post-descripcion p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.post-likes b {
+    color: #000;
+}
